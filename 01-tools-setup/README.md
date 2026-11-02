@@ -12,7 +12,7 @@ Install the core tools an entry-level security analyst uses and confirm each one
 
 Install command: `sudo apt install nmap wireshark python3 python3-pip python3-venv -y`
 
-!(2.jpeg)
+(2.jpeg)
 
 **Notes**: During the Wireshark install I chose "Yes" so a normal user can capture packets, then added my user to the wireshark group and confirmed it with the `groups` command.
 
@@ -48,6 +48,7 @@ I built a work log with four tasks an entry-level analyst might do:
 - Document anything suspicious
 
 I then used `grep failed notes.txt` to find the line about failed logins, the same way an analyst searches a log for a keyword.
+(1.jpeg)
 
 ## Reading file permissions
 `ls -l` showed `-rw-rw-r--` for `notes.txt`:
