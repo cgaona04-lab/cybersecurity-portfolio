@@ -1,4 +1,22 @@
 # Project 01: Tools Setup
+## Objective
+Install the core tools an entry-level security analyst uses and confirm each one works.
+
+## Tools installed
+| Tool | What it is for | Version check |
+|---|---|---|
+| Nmap | Scans networks to find open ports and services | `nmap --version` |
+| Wireshark | Captures and analyzes network traffic | `wireshark --version` |
+| Python 3 | Scripting and automation | `python3 --version` |
+| pip | Installs Python packages | `pip3 --version` |
+
+Install command: `sudo apt install nmap wireshark python3 python3-pip python3-venv -y`
+
+!(2.jpeg)
+
+**Notes**: During the Wireshark install I chose "Yes" so a normal user can capture packets, then added my user to the wireshark group and confirmed it with the `groups` command.
+
+---
 # Linux Basics Practice
 
 Environment: Ubuntu 26.04 LTS in VirtualBox (SecLab-01)
