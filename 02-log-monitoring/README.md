@@ -38,6 +38,7 @@ I ran `sudo ls` and entered a wrong password three times. `sudo` stopped after 3
 - Timestamps can show different time zones. The earliest entry ended in `+00:00` and the later ones in `-05:00`, so mixed time zones can confuse a timeline.
 - In a real investigation, I would keep the original record and add a dated correction instead of editing it, so nothing looks tampered with.
 - Knowing what normal looks like is what makes abnormal activity stand out.
+- A missing leading / makes the path wrong. 
 
 ## Self-test
 I also completed a practice "shift report": I recorded tool versions, the day's failed-login count, the `auth.log` owner and group, and the permissions on my own report file.
