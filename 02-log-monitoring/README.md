@@ -31,7 +31,7 @@ I ran `sudo ls` and entered a wrong password three times. `sudo` stopped after 3
 - Three failures about 9 seconds apart for the same user is a small version of a brute-force pattern: many failed guesses in a short time.
 
 ## Screenshot
-![Failed login search](failed-logins.jpg)
+(3.jpeg)
 
 ## Lessons learned
 - `grep -c` counts the whole file. To count one day, I needed the date filter first. I reported 8 at first, then corrected it to 6 after I checked the dates.
