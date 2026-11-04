@@ -38,7 +38,7 @@ Practice the terminal commands I will use every day as a security analyst, using
 | `cat notes.txt` | Displays the file |
 | `grep failed notes.txt` | Searches the file for a word |
 | `ls -l` | Shows permissions, owner, and size |
-| "command >> file" | Sends a command's output into a file|
+| `command >> file` | Sends a command's output into a file|
 
 ## Exercise: Day 1 work log
 I built a work log with four tasks an entry-level analyst might do:
